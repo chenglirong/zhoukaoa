@@ -1,0 +1,19 @@
+const app = angular.module('app',[]);
+app.controller('redame',function($scope){
+    $scope.user=[
+        {
+            img:'img/3.png',
+            h3:"百度",
+            h4:"北京市海淀区西北旺",
+            p:"互联网|已上市|10000以上",
+            h1:"热招：<span>前端工程师</span>等2382个职位"
+        },
+        {
+            img:'img/3.png',
+            h3:"百度",
+            h4:"北京市海淀区西北旺",
+            p:"互联网|已上市|10000以上",
+            h1:"热招：<span>前端工程师</span>等2382个职位"
+        }
+]
+})
